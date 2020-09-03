@@ -1,0 +1,31 @@
+{
+  "name": "uwubot",
+  "version": "1.0.0",
+  "description": "Convewt Engwish to uwuspeak. Sevwewless. Pwease UwU wesponsibwy :3",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aicantar/uwubot.git"
+  },
+  "keywords": [
+    "uwu",
+    "bot",
+    "telegram"
+  ],
+  "author": "aicantar",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/aicantar/uwubot/issues"
+  },
+  "homepage": "https://github.com/aicantar/uwubot#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "ignore": ["/test/"]
+  }
+}
