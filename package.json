@@ -4,7 +4,7 @@
   "description": "Convewt Engwish to uwuspeak. Sevwewless. Pwease UwU wesponsibwy :3",
   "main": "index.js",
   "scripts": {
-    "test": "standard && jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,9 @@
   },
   "homepage": "https://github.com/aicantar/uwubot#readme",
   "devDependencies": {
-    "jest": "^26.4.2",
-    "standard": "^14.3.4"
+    "jest": "^26.4.2"
   },
-  "standard": {
-    "ignore": ["/test/"]
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.11.0"
   }
 }
