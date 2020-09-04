@@ -1,14 +1,14 @@
 # uwubot
 Converts English to UwUspeak. Serverless. Please UwU responsibly :3
 
-Test in real life: [@myuwubot](https://t.me/myuwubot)
+Test it live: [@myuwubot](https://t.me/myuwubot)
 
 ## Deployment
 
 This bot works with Cloudflare Workers and requires [Wrangler][0] for deployment.
 It is included as a local dependency in `package.json` so you can run it with `npx`.
 
-If you don't know how to use Wrangler or have never worked with Cloudflare Workers, [go through a tutorial here][1].
+If you don't know how to use Wrangler or have never worked with Cloudflare Workers, [go through the tutorial here][1].
 
 First of all, copy `wrangler.tmpl.toml` to `wrangler.toml`:
 
